@@ -13,6 +13,9 @@ class _Login extends State<Login> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+ 
+          automaticallyImplyLeading: false, 
+          elevation: 0,
         centerTitle: true,
         backgroundColor: Colors.lightGreen[200],
         title: Text('SISTEMA GERENCIADOR \n DE PLANTÃO', style: const TextStyle(fontSize: 18, color: Colors.black, fontWeight: FontWeight.bold), textAlign: TextAlign.center),
