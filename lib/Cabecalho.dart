@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:teste/dados_usuario_card.dart';
+import 'package:progmobile/dados_usuario_card.dart';
 
 class Cabecalho extends StatefulWidget {
   const Cabecalho({Key? key}) : super(key: key);

@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:testarpmobile/dados_usuario_card.dart';
-import 'package:testarpmobile/opcoes_menu_card.dart';
+import 'package:progmobile/dados_usuario_card.dart';
+import 'package:progmobile/opcoes_menu_card.dart';
 
-class Home_Page extends StatefulWidget {
-  const Home_Page({Key? key}) : super(key: key);
+
+class HomePage extends StatefulWidget {
+  const HomePage({Key? key}) : super(key: key);
 
   @override
-  _Home_Page createState() => _Home_Page();
+  _HomePage createState() => _HomePage();
 }
 
-class _Home_Page extends State<Home_Page> {
+class _HomePage extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,10 +41,12 @@ class _Home_Page extends State<Home_Page> {
               const DadosMenuCard(
                 opcao: 'Cadastrar Plantão',
                 icon: 'https://cdn-icons-png.flaticon.com/512/4185/4185164.png',
+                boolfuncao: true,
               ),
               const DadosMenuCard(
                 opcao: 'Cadastrar Médico',
                 icon: 'https://cdn-icons-png.flaticon.com/512/4185/4185164.png',
+                boolfuncao: false,
               ),
             ])));
   }
